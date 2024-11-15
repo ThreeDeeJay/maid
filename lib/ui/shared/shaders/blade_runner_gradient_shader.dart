@@ -11,8 +11,10 @@ class BladeRunnerGradientShader extends StatelessWidget {
     return ShaderMask(
       shaderCallback: (bounds) => LinearGradient(
         colors: const [
-          Color.fromARGB(255, 0, 200, 255),
-          Color.fromARGB(255, 255, 80, 200)
+          Color.fromARGB(255, 73, 170, 160),
+          // Color.fromARGB(255, 0, 200, 255),
+          Color.fromARGB(255, 73, 170, 160)
+          // Color.fromARGB(255, 255, 80, 200)
         ],
         stops: stops,
         begin: Alignment.topLeft,

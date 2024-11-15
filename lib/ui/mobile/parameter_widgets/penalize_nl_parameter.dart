@@ -15,7 +15,7 @@ class PenalizeNlParameter extends StatelessWidget {
 
   Widget buildSwitchContainer(BuildContext context, ArtificialIntelligence ai, Widget? child) {
     return SwitchListTile(
-      title: const Text('Penalize New Line'),
+      title: const Text('减少换行'),
       value: ai.llm.penalizeNewline,
       onChanged: (value) {
         LargeLanguageModel.of(context).penalizeNewline = value;

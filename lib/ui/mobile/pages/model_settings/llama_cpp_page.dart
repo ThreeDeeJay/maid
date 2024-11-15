@@ -34,7 +34,7 @@ class LlamaCppPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: const ModelSettingsAppBar(title: "LlamaCPP Parameters"),
+      appBar: const ModelSettingsAppBar(title: "模型选择与参数配置"),
       body: SessionBusyOverlay(
         child: Consumer<ArtificialIntelligence>(
           builder: listViewBuilder

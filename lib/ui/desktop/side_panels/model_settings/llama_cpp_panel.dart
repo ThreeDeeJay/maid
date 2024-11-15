@@ -32,7 +32,7 @@ class LlamaCppPanel extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          "模型选择与配置",
+          "模型选择与参数配置",
           maxLines: 2,
           textAlign: TextAlign.center,
         ),

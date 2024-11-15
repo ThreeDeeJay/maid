@@ -44,7 +44,7 @@ class HomeDrawer extends StatelessWidget {
             // ),
             const SizedBox(height: 5.0),
             Text(
-              "Browse Characters"
+              "历史记录"
             ),
             Divider(
               color: Theme.of(context).colorScheme.primary,
