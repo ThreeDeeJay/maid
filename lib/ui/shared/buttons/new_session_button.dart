@@ -14,7 +14,7 @@ class NewSessionButton extends StatelessWidget {
       tooltip: "New Session",
       onPressed: Sessions.of(context).newSession, 
       icon: const Icon(
-        Icons.border_color_rounded,
+        Icons.cleaning_services,
         size: 24,
       )
     );

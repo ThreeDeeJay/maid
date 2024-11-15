@@ -64,7 +64,7 @@ class _ChatMessageWidgetState extends State<ChatMessageWidget> with SingleTicker
                 ),
                 const Expanded(child: SizedBox()), // Spacer
                 if (node.finalised) ...messageOptions(),
-                branchSwitcher()
+                // branchSwitcher()
               ],
             ),
             Padding(
