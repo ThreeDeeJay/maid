@@ -12,8 +12,8 @@ class TemplateParameter extends StatelessWidget {
     );
 
     return TextFieldContainer(
-      headingText: "Template",
-      labelText: "Template",
+      headingText: "模板",
+      labelText: "template",
       controller: controller,
       onChanged: (value) {
         LlamaCppModel.of(context).template = value;

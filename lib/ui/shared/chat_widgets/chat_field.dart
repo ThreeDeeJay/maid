@@ -122,7 +122,7 @@ class _ChatFieldState extends State<ChatField> {
                   controller: _promptController,
                   cursorColor: Theme.of(context).colorScheme.secondary,
                   decoration: InputDecoration(
-                    labelText: 'Prompt',
+                    labelText: '请输入问题',
                     hintStyle: Theme.of(context).textTheme.labelSmall,
                   ),
                 )

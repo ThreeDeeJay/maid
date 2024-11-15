@@ -43,17 +43,8 @@ class HomeDrawer extends StatelessWidget {
             //   )
             // ),
             const SizedBox(height: 5.0),
-            FilledButton(
-              onPressed: () {
-                Navigator.pop(context); // Close the drawer
-                Navigator.pushNamed(
-                  context,
-                  '/characters'
-                );
-              },
-              child: const Text(
-                "Browse Characters"
-              ),
+            Text(
+              "Browse Characters"
             ),
             Divider(
               color: Theme.of(context).colorScheme.primary,

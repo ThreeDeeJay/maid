@@ -32,7 +32,7 @@ class SeedParameter extends StatelessWidget {
     return Column(
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
-        const Text('Random Seed'),
+        const Text('随机种子'),
         Flexible(
           child: Switch(
             value: ai.llm.randomSeed,

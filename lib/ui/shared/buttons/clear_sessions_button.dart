@@ -12,7 +12,7 @@ class ClearSessionsButton extends StatelessWidget {
     return FilledButton(
       onPressed: Sessions.of(context).clearSessions,
       child: const Text(
-        "Clear Chats"
+        "清空历史记录"
       ),
     );
   }

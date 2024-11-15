@@ -21,7 +21,7 @@ class SeedParameter extends StatelessWidget {
     return Column(
       children: [
         SwitchListTile(
-          title: const Text('Random Seed'),
+          title: const Text('随机种子'),
           value: ai.llm.randomSeed,
           onChanged: (value) {
             LargeLanguageModel.of(context).randomSeed = value;
