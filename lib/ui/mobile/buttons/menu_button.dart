@@ -43,7 +43,7 @@ class _MenuButtonState extends State<MenuButton> {
       return PopupMenuButton(
         tooltip: 'Open Menu',
         icon: const Icon(
-          Icons.account_tree_rounded,
+          Icons.settings_suggest,
           size: 24,
         ),
         itemBuilder: itemBuilder
@@ -65,7 +65,7 @@ class _MenuButtonState extends State<MenuButton> {
       return PopupMenuButton(
         tooltip: 'Open Menu',
         icon: const Icon(
-          Icons.account_tree_rounded,
+          Icons.settings_suggest,
           size: 24,
         ),
         itemBuilder: itemBuilder
