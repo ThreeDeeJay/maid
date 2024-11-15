@@ -10,7 +10,7 @@
        <application
         android:label="毕设轻量大模型"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/maid"
         android:requestLegacyExternalStorage="true"
         android:allowBackup="false"
         >

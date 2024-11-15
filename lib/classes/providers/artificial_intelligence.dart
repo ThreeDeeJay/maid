@@ -20,7 +20,7 @@ class ArtificialIntelligence extends ChangeNotifier {
   static Future<ArtificialIntelligence> get last async {
     final prefs = await SharedPreferences.getInstance();
 
-    final llmTypeInt = prefs.getInt("llm_type") ?? LargeLanguageModelType.ollama.index;
+    final llmTypeInt = prefs.getInt("llm_type") ?? LargeLanguageModelType.llamacpp.index;
 
     final llmType = LargeLanguageModelType.values[llmTypeInt];
 
