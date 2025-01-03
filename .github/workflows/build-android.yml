@@ -11,6 +11,7 @@ on:
       - 'lib/**'
       - 'assets/**'
       - 'pubspec.yaml'
+  workflow_dispatch:
 
 jobs:
   build:
